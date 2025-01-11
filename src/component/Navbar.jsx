@@ -22,10 +22,10 @@ const Navbar = () => {
               Status
             </Link>
 
-            <button type="button" className="btn btn-primary">
+            <Link to={"/cart"} className="btn btn-primary">
               cart:&nbsp;
               <span className="badge text-bg-light">{items.length}</span>
-            </button>
+            </Link>
           </ul>
         </div>
       </div>
